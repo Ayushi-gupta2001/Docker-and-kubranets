@@ -1,0 +1,26 @@
+Why we need docker or container 
+
+We write a code , we install various packages or software , dependencies that is required to run that code on our local enviorment or our development requirement or we can say in our 
+local machine. 
+Then we lock all that in a container.
+Let's take an example here!!
+
+We are working on a project that is required the node js version 14.0.1 , so we install that version and use that version for our use case. Then we write our code or
+tested our applicatin in our development enviorment or local enviornement. Then we sent this code and excute the code to the production enviornemnt or any other system.
+
+It suddenly shows error, but why?????????
+
+Beacause all the dependenices that is required to run that code is not match the production env or other system's dependecies , so what we will do????
+
+Of course, we will install the dependeices or requirment in our system, but don't you think it is teadious task????😢😢
+Becuase might be it doesn't work after doing all this. 
+
+So , What can be solution for this???????
+
+
+Here is the docker or kubernets picture comes:
+
+We ship all the code its dependiencies it's required software in a container and now we can sent this container to any system where docker is running. And excute 
+container simple!!.
+We will further see how can a container excute.
+But for now this is the basic idea why we use docker or container to match the enviorment of every system to excute application without any failure.
