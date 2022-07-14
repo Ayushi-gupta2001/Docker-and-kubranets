@@ -1,0 +1,14 @@
+Why Docker has so much priority rather than virtual machine ???????
+
+Then main differene is : Container virtulize the operating system instead of hardware. Conatiner is more portale rather than virtual machine.
+Continer are only meghabytes in size and uses the some byte of layer of operating system and take just a second to start.
+
+Virtual machine is just like an another computer. VMs are an abstraction of physical hardware turning one server into many servers.
+The hypervisor allows multiple VMs to run on a single machine. Each VM includes a full copy of an operating system, the application,
+necessary binaries and libraries — taking up tens of GBs. VMs can also be slow to boot.
+
+
+Dokcer container host on a simgle physical hardware with a host os. Sharing the host os between container make them light and increase the boot time.
+
+In virtual machine if you want to share the your all the code into another production enviorment then you have to configure the production enviorment vms as the development 
+enviorment vms.
