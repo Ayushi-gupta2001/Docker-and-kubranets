@@ -1,0 +1,18 @@
+###########################
+
+Docker setup 
+
+Hello peps!!
+
+I have installed Docker on Linux :
+
+What i have done is , I launched an virtual machine on EC2. Here EC2 is an AWS service that we use to create Virtual machine. And on top of virtual machine we will run our
+docker engine to manage containers.
+
+So the first step is :
+1) Launched an EC2 instance 
+2) Access the EC2 instance through SSH 
+3) yum update -y
+4) yum install docker -y
+5) systemctl start docker
+6) systemctl status docker
